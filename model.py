@@ -1,10 +1,10 @@
 import torch
-import torch.nn as nn
+from torch import nn
 import torchvision
 import torch.nn.functional as F
 
-# Define a convolution neural network
-class Network(nn.module):
+# Define neural network
+class Network(nn.Module):
     def __init__(self,num_users,num_movies):
         super().__init__()
         self.user_embed = nn.Embedding(num_users,32,max_norm=True)
@@ -20,4 +20,3 @@ class Network(nn.module):
         output = self.out(output)
         
         return output
-
