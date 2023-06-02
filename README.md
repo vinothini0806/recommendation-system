@@ -41,16 +41,3 @@ This script will load the dataset, preprocess it, and train the neural network m
 
 - The MovieLens dataset is provided by the GroupLens Research Project at the University of Minnesota.
 - The neural network implementation is based on the torch library.
-
-
-
-
-
-
-
-
-
-## Acknowledgements
-
-- The MovieLens dataset is provided by the GroupLens Research Project at the University of Minnesota.
-- The neural network implementation is based on the TensorFlow library.
